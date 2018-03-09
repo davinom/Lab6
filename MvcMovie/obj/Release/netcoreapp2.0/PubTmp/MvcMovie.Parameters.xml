@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="davinomLab6" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\immat\\source\\repos\\MvcMovie\\MvcMovie\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="MvcMovie.Models.MvcMovieContext" description="" value="Data Source=tcp:davinomlab6.database.windows.net,1433;Initial Catalog=davinomLab6;User Id=davinom@davinomlab6.database.windows.net;Password=Sqawv334;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\immat\\source\\repos\\MvcMovie\\MvcMovie\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\MvcMovie\.Models\.MvcMovieContext\.sql$" />
+  </parameter>
+</parameters>

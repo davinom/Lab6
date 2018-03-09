@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiheJE51UFUGqCitsDEzI5wAAAAACAAAAAAAQZgAAAAEAACAAAADV83cFyDzx+3zaIMtQ1bg69+qbMSUf1oA54EdaKZF+kgAAAAAOgAAAAAIAACAAAAD+DkW7cyYQ1CXY6y5UDsJ6GiRTV+UEtA5LofWm//EV14AAAADMz6XDTmpBK7H+cIr+pT4Mzuu55qZNXR14HPc6Hd2MXzpKSbp6yZb/J+S88QNMyT5PcHNYD7YMeeL9PrC+8HnSVpmCTkSe3VGZ+mfoDp0kY1l0v2em7IrAv4D79YjpgCGersDgUY0qChNffpc4gWXf2H1y73LbYjKCqwqZOKG8oEAAAADCJzMYGRB9A4AyFK0AquBQHSrdfs9Mt1afRweZhEGm/IE69PsjQScRvm/ppUW/9i5ElXXWlE0OjURUHr+pPG7D</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:davinomlab5dbserver.database.windows.net,1433;Initial Catalog=MvcMovieContext-50b8775d-a480-4599-9ed7-90747d7f4e36;User Id=admunistrator@davinomlab5dbserver;Password=Sqawv334</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MvcMovie.Models.MvcMovieContext">
+      <Value>Data Source=tcp:davinomlab5dbserver.database.windows.net,1433;Initial Catalog=MvcMovieContext-50b8775d-a480-4599-9ed7-90747d7f4e36;User Id=admunistrator@davinomlab5dbserver;Password=Sqawv334</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

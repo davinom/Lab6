@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiheJE51UFUGqCitsDEzI5wAAAAACAAAAAAAQZgAAAAEAACAAAAD1XOwqFKhnCgHdAfIs2dkaEynOg6tnwO4Uw8Qc+09rZQAAAAAOgAAAAAIAACAAAABAUhcqyDN2n7IS2Y78fLFdt30laTQenBvQnxLkODMAhIAAAAC3xgoC9CZ9rupzryxuVGMWyQUOh84C1C+3JQICShOrz2n8bPyuKgWIGlx2A+9G5TI/l3KTqjcC2kzI83/duVkZJdUutjSXDJOAENs9ibBAcMIi2/NPNW/5tEeetYjhI+Kp0bzQsvjxeF6ul0BdjieJCJhHekoA4/KvxBTt/9tAukAAAABbmD67bQqpmCYALnIk/xp6hewrRtMMffFsKOJoaG3AzXdHMD8rQubrOzBW2A60r/CjojQLQ/SOxjkeh7Rz7cgq</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:davinomlab6.database.windows.net,1433;Initial Catalog=davinomLab6;User Id=davinom@davinomlab6.database.windows.net;Password=Sqawv334;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MvcMovie.Models.MvcMovieContext">
+      <Value>Data Source=tcp:davinomlab6.database.windows.net,1433;Initial Catalog=davinomLab6;User Id=davinom@davinomlab6.database.windows.net;Password=Sqawv334;</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

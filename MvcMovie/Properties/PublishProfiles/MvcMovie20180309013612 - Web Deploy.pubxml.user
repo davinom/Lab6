@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiheJE51UFUGqCitsDEzI5wAAAAACAAAAAAAQZgAAAAEAACAAAABzqTpJqL6vp/7mHIfxfQXU71TBBYz8ekDF4A8Nv10GhAAAAAAOgAAAAAIAACAAAAAEvut/Kf6xEuBfip83D9YWJP1K0i13/I0aC324pdfJr4AAAAA49qgOv8T5cjf8RgvNY66xEhOKK6AF74eC3vp4CRmwGxTooCGLlTo2PFr5SI12BI+X/7np6nQiTHEmcXKlG2EkRZeNKloA/azk0PLzrGLsc3Yegz82tG4v9fnlpxY7kOcJtC+c6LwdRbJHiX7pD+L3syqrYW+/xzhrQj7nbhClAUAAAAA6ktXuebQWcugzgK/hR+8cZ7r5LA82x6V3WtaY3sxpaA8+RdCnLfKCvlae8tvru/Fd/OlHLHsWIiVNslHLzC4O</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:lab6server.database.windows.net,1433;Initial Catalog=MvcMovieContext-50b8775d-a480-4599-9ed7-90747d7f4e36;User Id=davinom@lab6server;Password=WebApps1</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MvcMovie.Models.MvcMovieContext">
+      <Value>Data Source=tcp:lab6server.database.windows.net,1433;Initial Catalog=MvcMovieContext-50b8775d-a480-4599-9ed7-90747d7f4e36;User Id=davinom@lab6server;Password=WebApps1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

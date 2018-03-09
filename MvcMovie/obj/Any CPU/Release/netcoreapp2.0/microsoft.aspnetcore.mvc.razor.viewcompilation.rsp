@@ -1,0 +1,23 @@
+C:\Users\immat\source\repos\MvcMovie\MvcMovie
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=MvcMovie
+--content-root=C:\Users\immat\source\repos\MvcMovie\MvcMovie
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\HelloWorld\Index.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\HelloWorld\Welcome.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Home\About.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Home\Contact.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Home\Index.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Movies\Create.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Movies\Delete.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Movies\Details.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Movies\Edit.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Movies\Index.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Reviews\Create.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Reviews\Delete.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Reviews\Edit.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Reviews\Index.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Shared\Error.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Shared\_Layout.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\_ViewImports.cshtml
+--file=C:\Users\immat\source\repos\MvcMovie\MvcMovie\Views\_ViewStart.cshtml
